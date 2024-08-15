@@ -66,8 +66,8 @@
           background-color: white;
           border: 3px double var(--MediumBlue);
           border-radius: 50px;
-          margin:5%;
-          padding:5%;
+          margin:2% 0%;
+          padding:4%;
         }
         section {}
           article {}
@@ -147,52 +147,42 @@
         
         /*  ----- Table ----- */
         table {
-          align-items: left;
+          align-items: center;
+          font-size: .85em;
           color:var(--DarkGrayBlue);
-          background-color:var(--MediumBlue);
-          margin:3%;
-          padding:1%;
-          border: 3px solid var(--DarkGrayBlue);
-          border-radius:8px; 
-          width: 95%
+          width: 100%
         }
         caption {
-          align-items: center;
+          text-align: left;
           color:var(--DarkGrayBlue);
-          background-color:var(--LightGray);
-          margin:3%;
+          /* background-color:var(--LightGray); */
+          margin:2% 0% 0% 0%;
           padding:1%;
-          border: 3px solid var(--DarkGrayBlue);
-          border-radius:8px;
+          /* border-bottom: 1px solid var(--DarkGrayBlue); */
+          /* border-radius:8px; */
         }
         thead {}
         tbody {}
         tfoot {}
         tr {}
         
-          tr:nth-child(even) td {background-color: var(--SkyBlueOpacity);}
-        tr th { 
-          align-items: center;
+          /* tr:nth-child(even) td {background-color: var(--SkyBlueOpacity);} */
+        /* tr th { 
+          align-items: left;
           color:var(--DarkGrayBlue);
           background-color:var(--MediumBlue);
           margin: 3px;
           padding:1%;
           border-bottom: 1px solid var(--LightGray);
        
+        } */
+        td {
+          padding:1% 1%;
         }
-        tr td {
-          align-items: left;
-          color:var(--DarkGrayBlue);
-          background-color:var(--MediumBlue);
-          margin:30%;
-          padding:1% 3%;
-          border: 1px solid var(--LightGray);
-        }
-          td:nth-child(1) {}
-        colgroup {}
-        data {}
-        datalist {}
-        
+       table{
+        border-top: 1px solid var(--DarkGrayBlue);
+        border-bottom: 1px solid var(--DarkGrayBlue);
+       }
         
         /*  ----- Form ----- */
         form, input, button, textarea, select {
