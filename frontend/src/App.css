@@ -59,10 +59,13 @@
           text-align: left;
           border-bottom: 5px solid var(--DarkGrayBlue);
         }
-      
+      .work_experience {
+        font-size:0.85em;
+      }
         main {
-          /* background-color: var(--SkyBlueOpacity);
-          border: 3px dotted var(--MediumBlue); */
+          background-color: white;
+          border: 3px double var(--MediumBlue);
+          border-radius: 50px;
           margin:5%;
           padding:3%;
         }

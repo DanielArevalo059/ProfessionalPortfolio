@@ -44,39 +44,20 @@ function AboutMePage(){
                 <dt><strong>Why Computer Science?</strong></dt>
                 <dd>
                     <p>
-                        Since a young age, I have always loved math and puzzles. Not so much jigsaw puzzles, but logical, thinking puzzles. I loved taking things apart and 
-                        putting them back together again, fixing things, and figuring out what caused them to break. Heading into college at Cal State East Bay, I decided I wanted to become a teacher to 
-                        Elementary students. Although it wasn't a requirement, I also decided to receive a math minor in addition to my Bachelor's of Arts in Liberal Studies, simply 
-                        for the enjoyment of the courses. 
+                        Since childhood, I’ve always loved math and logical puzzles, often taking things apart and putting them back together to understand how they work. At Cal State East Bay, 
+                        I initially pursued a degree in Liberal Studies and a math minor purely for enjoyment of the courses. In my final year, I took a Linear Algebra course with Professor Yap, 
+                        who taught the material alongside Python programming. Shoutout to Professor Yap, as this class piqued my interest in coding, especially while I worked on a cryptography project 
+                        that consumed my time and curiosity. The project scratched an itch that I never knew needed scratching.
                     </p>
                     <p>
-                        Towards the very end of my tenure at CSUEB, I took a Linear Algebra course. The professor, Professor Yap, was awesome. She was pretty strict, 
-                        and you could tell she did not take well to the students that were not serious about the course. But I loved it! 
-                        Professor Yap decided to teach the course material in tandem with Python. She taught the material traditionally, but she split the class lectures between Linear Algebra and coding, since 
-                        Linear Algebra is highly applicable in real life via programming. 
+                        After college, I entered Human Resources, where I was able to hone my skills as a leader and a team player, but I still felt unfulfilled. My mind kept going back to that Linear Algebra 
+                        class. Occasionally, I explored tech bootcamps as a way to pivot careers, but none seemed to be the right fit for me. A friend then introduced me to the Oregon State University Computer 
+                        Science program, and after another year of deliberation, I finally mustered up the courage to apply.
                     </p>
                     <p>
-                        By the end of the quarter, we were in charge of creating a short program using Linear Algebra concepts. I chose to work on a cryptography project that takes a string and 
-                        a user's 4 digit code, then encrypts the string using matrix operations and a vector. With that code and the encrypted string, another user could then decrpyt the message. Looking back on that now, 
-                        the project could have probably been done in 20 lines of code (or less!), but it took me weeks to figure it out at the time. I was engulfed by it. I sat at the computer for hours trying to understand functions,
-                        arrays, and loops. In class, I was the annoying student sitting at the front of class constantly raising my hand. I stayed after class to ask more questions. The project was an itch I never knew
-                        needed scratching.
-                    </p>
-                    <p>
-                        Fast forward a few years, I ended up in the Human Resources sector, which I quickly learned was much like teaching Elementary age students. It was an amazing experience, but with my brain,
-                        math and puzzle-minded as it is, I wasn't fulfilled. I often thought back on that Linear Algebra class and would frequently look into bootcamps as a way to pivot into the tech world. 
-                    </p>
-                    <p>
-                        Then one day, a friend mentioned the Oregon State University post-baccalaureate Bachelor's of Science Computer Science program. He was about half-way to completion in the program and was loving it. I believe
-                        it was a nearly whole year until I finally mustered the courage to apply. I vividly remember receiving the email informing me that a decision had been made on my application back in July 2022. 
-                        After many, many conversations with my then fiancee of the pros and cons, I reluctantly made one of the biggest decisions of my life and accepted my offer for admission.
-                    </p>
-                    <p>
-                        I don't think I could possibly be happier with my decision. I enjoyed the program to the absolute fullest. Of course, there were many times I wanted to bang my head against the keyboard in frustration and
-                        there may have even been a few tears shed (looking at you Operating Systems I) along the way, but the whole time I felt that itch being scratched again. I am looking forward to where this decision takes me
-                        and excited to continue to learn and grow in this ever-evolving, exhilarating field.
-                    </p>
-                    
+                        Accepting my offer of admission was one of the biggest decisions of my life, and I couldn’t be happier. The program has challenged me, sometimes to the point of frustration (looking at you, 
+                        Operating Systems I,) but it reignited my passion for problem-solving. Now, I am thrilled to continue learning and growing in this ever-evolving, exhilarating, field.
+                    </p>                   
                 </dd>
 
               </dl>
