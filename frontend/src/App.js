@@ -39,7 +39,6 @@ function App() {
             <Route path='/experience' element={<ExperiencePage />} />
             <Route path='/projects' element={<ProjectsPage />} />
             <Route path='/contact' element={<ContactPage />} />
-             {/* <Route path='/contact' element={<Contact />} /> */}
           </Routes>
         </section>
         
