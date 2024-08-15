@@ -26,7 +26,6 @@ function App() {
       <BrowserRouter>
 
       <header>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <h1> Daniel Arevalo</h1>
       </header>
       
