@@ -73,7 +73,18 @@
           article {}
             #topic1 {}
             #topic2 {}
-        div {}
+
+        .OSULogo {
+          position:absolute;
+          top:25%;
+          left:54%;
+
+        }
+        .EBLogo{
+          position:absolute;
+          top:65%;
+          left: 52.5%
+        }
         aside {}
         footer {
           text-align: left;
