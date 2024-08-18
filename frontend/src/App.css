@@ -74,17 +74,36 @@
             #topic1 {}
             #topic2 {}
 
-        .OSULogo {
-          position:absolute;
-          top:25%;
-          left:54%;
+
+        
+        #OSULogo {
+          /* position:absolute; */
+          /* top:25%; */
+          /* left:54%; */
+          /* float:center; */
 
         }
-        .EBLogo{
-          position:absolute;
-          top:65%;
-          left: 52.5%
+        #EBLogo{
+          /* position:absolute; */
+          /* top:65%; */
+          /* left: 52.5%; */
+          /* float:right; */
         }
+        .LogoContainer{
+          position:relative;
+          top:25%;
+          left:54%;
+/* display:flex;
+flex-flow: wrap; */
+        }
+        .LogoTable{
+          border-top:0;
+          border-bottom:0;
+          /* display:flex; */
+          flex-flow:wrap;
+
+        }
+        
         aside {}
         footer {
           text-align: left;

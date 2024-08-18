@@ -5,19 +5,39 @@ function ExperiencePage() {
   return (
     <>
       <article>
-        {/* Logo images */}
-        <p class="OSULogo">
-  <img src='../images/OSULogo.png' alt="OSU Logo" width="40%" height="40%"></img>
-</p>
-<p class="EBLogo">
-  <img src='../images/EastBayLogo.png' alt="East Bay Logo" width="45%" height="45%"></img>
-</p>
+        {/* University logo images */}
+        <div class="LogoContainer">
+          <table class="LogoTable">
+            <tr>
+              <td>
+                <img
+                  id="OSULogo"
+                  src="../images/OSULogo.png"
+                  alt="OSU Logo"
+                  width="40%"
+                  height="40%"
+                ></img>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  id="EBLogo"
+                  src="../images/EastBayLogo.png"
+                  alt="East Bay Logo"
+                  width="45%"
+                  height="45%"
+                ></img>
+              </td>
+            </tr>
+          </table>
+        </div>
         <h2>Education</h2>
         <dl>
           <dt>
-            <strong><u>
-          Google Machine Learning Crash Course
-            </u></strong>
+            <strong>
+              <u>Google Machine Learning Crash Course</u>
+            </strong>
           </dt>
           <dd>
             <li class="experience">In Progress</li>
@@ -61,7 +81,7 @@ function ExperiencePage() {
                 <strong>Language Fundamentals</strong>
               </td>
               <td>
-                <li>Proficient in Python</li>
+                <li>Proficient in Python, Data Structures, and Algorithms</li>
               </td>
               <td>
                 <li>Working knowledge in C++, Raku, Racket, and Ruby</li>
