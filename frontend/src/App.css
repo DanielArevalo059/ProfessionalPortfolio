@@ -90,20 +90,17 @@
           /* float:right; */
         }
         .LogoContainer{
-          position:relative;
-          top:25%;
-          left:54%;
+          /* position:relative; */
+          /* top:25%;
+          left:54%; */
 /* display:flex;
 flex-flow: wrap; */
         }
         .LogoTable{
-          border-top:0;
-          border-bottom:0;
-          /* display:flex; */
-          flex-flow:wrap;
 
+          padding: 0% 5% 0% 0%;
         }
-        
+
         aside {}
         footer {
           text-align: left;
@@ -176,12 +173,12 @@ flex-flow: wrap; */
         ins {}
         
         /*  ----- Table ----- */
-        table {
+        /* table {
           align-items: center;
           font-size: .85em;
           color:var(--DarkGrayBlue);
           width: 100%
-        }
+        } */
         caption {
           text-align: left;
           color:var(--DarkGrayBlue);
@@ -206,14 +203,14 @@ flex-flow: wrap; */
           border-bottom: 1px solid var(--LightGray);
        
         } */
-        td {
-          padding:1% 1%;
-        }
-       table{
+        
+       .TechnicalProficienciesTable{
         border-top: 1px solid var(--DarkGrayBlue);
         border-bottom: 1px solid var(--DarkGrayBlue);
        }
-        
+       .TechnicalProficienciesTable td {
+        padding:1% 1%;
+      }
         /*  ----- Form ----- */
         form, input, button, textarea, select {
           font-family: ysabeau, sans-serif;

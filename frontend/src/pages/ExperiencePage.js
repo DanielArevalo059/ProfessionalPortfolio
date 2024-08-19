@@ -5,124 +5,136 @@ function ExperiencePage() {
   return (
     <>
       <article>
+        <h2>Education</h2>
         {/* University logo images */}
-        <div class="LogoContainer">
-          <table class="LogoTable">
+        <table className="LogoTable">
+          <thead>
+            <tr>
+              <th style={{ width: "60%" }}></th>
+              <th style={{ width: "35%" }}></th>
+            </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>
+                <dl>
+                  <dt>
+                    <strong>
+                      <u>Google Machine Learning Crash Course</u>
+                    </strong>
+                  </dt>
+                  <dd>In Progress</dd>
+                </dl>
+              </td>
+              <td
+                rowSpan={"2"}
+                style={{ textAlign: "left", verticalAlign: "middle" }}
+              >
                 <img
                   id="OSULogo"
                   src="../images/OSULogo.png"
                   alt="OSU Logo"
-                  width="40%"
-                  height="40%"
-                ></img>
+                  style={{ width: "60%", height: "auto" }}
+                />
               </td>
             </tr>
             <tr>
               <td>
+                <dl>
+                  <dt>
+                    <strong>
+                      <u>Bachelor of Science, Computer Science</u>
+                    </strong>
+                  </dt>
+                  <dd>Fall 2022 - Summer 2024</dd>
+                  <dd>Oregon State University, Corvallis, OR</dd>
+                  <dd>
+                    <Link
+                      to="https://www.credly.com/badges/79d79d9d-3728-4a84-b251-bdc7bebaf38c/public_url"
+                      className="experience"
+                      target="_blank"
+                    >
+                      Programming Fundamentals Badge
+                    </Link>
+                  </dd>
+                  <dd>GPA: 3.74</dd>
+                </dl>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <dl>
+                  <dt>
+                    <strong>
+                      <u>Bachelor of Arts, Liberal Studies</u>
+                    </strong>
+                  </dt>
+                  <dd>Fall 2015 - Winter 2017</dd>
+                  <dd>Cal State East Bay, Hayward, CA</dd>
+                  <dd>Relevant Coursework: Math Minor</dd>
+                </dl>
+              </td>
+              <td style={{ textAlign: "left", verticalAlign: "middle" }}>
                 <img
                   id="EBLogo"
                   src="../images/EastBayLogo.png"
                   alt="East Bay Logo"
-                  width="45%"
-                  height="45%"
-                ></img>
+                  style={{ width: "60%", height: "auto" }}
+                />
               </td>
             </tr>
-          </table>
-        </div>
-        <h2>Education</h2>
-        <dl>
-          <dt>
-            <strong>
-              <u>Google Machine Learning Crash Course</u>
-            </strong>
-          </dt>
-          <dd>
-            <li class="experience">In Progress</li>
-          </dd>
-          <p></p>
-          <dt>
-            <strong>
-              <u>Bachelor of Science, Computer Science</u>
-            </strong>
-          </dt>
-          <dt>Fall 2022 - Summer 2024</dt>
-          <dt>
-            Oregon State University, Corvallis, OR
-            <Link
-              to="https://www.credly.com/badges/79d79d9d-3728-4a84-b251-bdc7bebaf38c/public_url"
-              class="experience"
-              target="_blank"
-            >
-              <dd>
-                <li>Programming Fundamentals Badge</li>
-              </dd>
-            </Link>
-          </dt>
-          <p></p>
-          <dt>
-            <strong>
-              <u>Bachelor of Arts, Liberal Studies</u>
-            </strong>
-          </dt>
-          <dt>Fall 2015 - Winter 2017</dt>
-          <dt>Cal State East Bay, Hayward, CA</dt>
-          <dd>
-            <li class="experience">Relevant Coursework: Math Minor</li>
-          </dd>
-          <table>
-            <caption>
-              <strong>Technical Proficiencies</strong>
-            </caption>
-            <tr>
-              <td>
-                <strong>Language Fundamentals</strong>
-              </td>
-              <td>
-                <li>Proficient in Python, Data Structures, and Algorithms</li>
-              </td>
-              <td>
-                <li>Working knowledge in C++, Raku, Racket, and Ruby</li>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>Web Development</strong>
-              </td>
-              <td>
-                <li>JavaScript, MongoDB, Express, React, Node.js</li>
-              </td>
-              <td>
-                <li>SQL and NoSQL</li>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>OS & Parallelism</strong>
-              </td>
-              <td>
-                <li>*nix Systems, Processes, Concurrency, Threading</li>
-              </td>
-              <td>
-                <li>OpenMP, CUDA, OpenCL, MPI</li>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>Software Engineering</strong>
-              </td>
-              <td>
-                <li>Agile, Contiguous Integration, SDLC</li>
-              </td>
-              <td>
-                <li>GitHub VCS, YML Config, Testing</li>
-              </td>
-            </tr>
-          </table>
-          <p></p>
-        </dl>
+          </tbody>
+        </table>
+        <table class="TechnicalProficienciesTable">
+          <caption>
+            <strong>Technical Proficiencies</strong>
+          </caption>
+          <tr>
+            <td>
+              <strong>Language Fundamentals</strong>
+            </td>
+            <td>
+              <li>Proficient in Python, Data Structures, and Algorithms</li>
+            </td>
+            <td>
+              <li>Working knowledge in C++, Raku, Racket, and Ruby</li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Web Development</strong>
+            </td>
+            <td>
+              <li>JavaScript, MongoDB, Express, React, Node.js</li>
+            </td>
+            <td>
+              <li>SQL and NoSQL</li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>OS & Parallelism</strong>
+            </td>
+            <td>
+              <li>*nix Systems, Processes, Concurrency, Threading</li>
+            </td>
+            <td>
+              <li>OpenMP, CUDA, OpenCL, MPI</li>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Software Engineering</strong>
+            </td>
+            <td>
+              <li>Agile, Contiguous Integration, SDLC</li>
+            </td>
+            <td>
+              <li>GitHub VCS, YML Config, Testing</li>
+            </td>
+          </tr>
+        </table>
+        <p></p>
         <h2>Work Experience</h2>
         <dl>
           <dt>
