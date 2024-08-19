@@ -3,24 +3,9 @@
 
 
 /*   ----- Imports  -----  */
-  /* Add fonts from the app's server 
-    @font-face {                
-      font-family: 'FontName';
-      src: url('FontName.woff2') format('woff2');
-    } 
-    ...or hosted services like Google Fonts 
-    @import url(//fonts.googleapis.com/css?family=Font+Name);
-  */
-  
-  /* @import 'node_modules/modern-normalize/modern-normalize.css'; */
-        /* npm install modern-normalize
-          Resets elements for browser consistency.  
-          https://www.npmjs.com/package/modern-normalize
-        */    
+
         @import url('https://fonts.googleapis.com/css2?family=Anton&family=Ysabeau:wght@300;700&display=swap'); 
-        /* Component-specific stylesheets, if any. 
-          @import "component1.css";   
-        */
+
         @import "~react-image-gallery/styles/css/image-gallery.css";
         
       /*   ----- Variables  -----  */
@@ -37,7 +22,6 @@
         /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
         body {       /* Can alternatively define in html {} or :root {} */
           background-color: lightgray;
-          /* background-image:url("images/utah-canyon-landscape.jpg"); */
           background-size: cover;
           color:var(--DarkGrayBlue);
           font-family:ysabeau, sans-serif; /* Define with at least one font name and its related generic family name.*/
@@ -69,51 +53,20 @@
           margin:2% 0%;
           padding:4%;
         }
-        section {}
-          article {}
-            #topic1 {}
-            #topic2 {}
-
-
         
-        #OSULogo {
-          /* position:absolute; */
-          /* top:25%; */
-          /* left:54%; */
-          /* float:center; */
 
-        }
-        #EBLogo{
-          /* position:absolute; */
-          /* top:65%; */
-          /* left: 52.5%; */
-          /* float:right; */
-        }
-        .LogoContainer{
-          /* position:relative; */
-          /* top:25%;
-          left:54%; */
-/* display:flex;
-flex-flow: wrap; */
-        }
         .LogoTable{
 
           padding: 0% 5% 0% 0%;
         }
 
-        aside {}
         footer {
           text-align: left;
           color: var(--DarkGrayBlue);
         }
         
         /* ----- Anchors ----- Text links */
-        /* a {}
-        a:link {}
-        a:hover {}
-        a:active {}
-        a:visited {} */
-        
+
         /*  ----- Navigation ----- Override text links for navigation only.  */
         nav {
           text-align: center;
@@ -342,52 +295,3 @@ flex-flow: wrap; */
         
         /*   ===== PRINT  media query overrides previous styles =====  */
         @media print {}
-
-
-
-
-
-
-
-
-
-
-/*.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-*/
