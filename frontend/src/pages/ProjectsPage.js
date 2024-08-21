@@ -27,7 +27,7 @@ function ProjectsPage() {
     <>
       <h2>Projects</h2>
       <aside ref={sidebarRef} className={`${sidebarToggled ? "visible" : ""}`}>
-        ProjectSidebar
+        <ProjectSidebar />
       </aside>
       <article>
         <button

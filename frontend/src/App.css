@@ -86,58 +86,7 @@
           color: var(--TanBeige); 
           cursor: pointer;  
                 
-        }
-        /*  -----  Typography  ----- */
-        p {}
-        br {}
-        ol, ul, dl {}
-        li {}
-        dt {}
-        dd {}
-        
-        h1, h2, h3, h4, h5, h6 {
-          font-family:anton;
-        } 
-        h1 {}
-        h2 {}
-        h3 {}
-        h4 {}
-        h5 {}
-        h6 {}
-        
-        abbr {}
-        acronym {}
-        address {}
-        blockquote {}
-          q {}
-          cite {}
-        em {}
-        hr {}
-        mark {}
-        s {}
-        span {}
-        strong {}
-        sub {}
-        sup {}
-        time {}
-        
-        /*  ----- Coding or instructional typography ----- */
-        pre {}
-        code {}
-        kbd {}
-        samp {}
-        var {}
-        del {} 
-        ins {}
-        
-        /*  ----- Table ----- */
-        /* table {
-          align-items: center;
-          font-size: .85em;
-          color:var(--DarkGrayBlue);
-          width: 100%
-        } */
-        caption {
+        }caption {
           text-align: left;
           color:var(--DarkGrayBlue);
           /* background-color:var(--LightGray); */
@@ -146,21 +95,7 @@
           /* border-bottom: 1px solid var(--DarkGrayBlue); */
           /* border-radius:8px; */
         }
-        thead {}
-        tbody {}
-        tfoot {}
-        tr {}
-        
-          /* tr:nth-child(even) td {background-color: var(--SkyBlueOpacity);} */
-        /* tr th { 
-          align-items: left;
-          color:var(--DarkGrayBlue);
-          background-color:var(--MediumBlue);
-          margin: 3px;
-          padding:1%;
-          border-bottom: 1px solid var(--LightGray);
-       
-        } */
+    
         
        .TechnicalProficienciesTable{
         border-top: 1px solid var(--DarkGrayBlue);
@@ -234,12 +169,7 @@
         *:required {
           border: 1px solid red;
         }
-          output {}
-          meter {}
-          progress {}
-            optgroup {}
-            option {}
-       
+    
         
         /* ----- Media ----- */
         .gallery figure {
@@ -254,42 +184,14 @@
           display:block; 
           padding: 1% 1% 2% 1%;
         }
-          figure img {}
-        svg {}
-        picture {}
-          source {}
-        iframe {}
-        video {}
-        audio {}
-        embed {}
-        object {}
-        
+     
         /*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
         .gallery { 
           display: flex;
           flex-flow: row wrap;
         }
         
-        .floatright {}
-        .floatleft {}
-        .center-middle {}
-        
-        .ten {}
-        .twenty {}
-        .thirty {}
-        .forty {}
-        .fifty {}
-        .sixty {}
-        .seventy {}
-        .eighty {}
-        
-        .radius {}
-        .circle {}
-        .boxshadow {}
-        .tshadow {} 
-        .gradient {}
-        .shape {}
-        
+
         @keyframes App-logo {}
         
         /*   ===== TABLET  media query overrides mobile styles ===== */
