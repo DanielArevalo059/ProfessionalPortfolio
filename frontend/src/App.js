@@ -11,6 +11,7 @@ import AboutMePage from "./pages/AboutMePage.js";
 import ExperiencePage from "./pages/ExperiencePage.js";
 import ProjectsPage from "./pages/ProjectsPage.js";
 import ContactPage from "./pages/ContactPage.js";
+import GalleryPage from "./pages/GalleryPage.js";
 
 //import styles
 import "./App.css";
@@ -34,6 +35,7 @@ function App() {
               <Route path="/experience" element={<ExperiencePage />} />
               <Route path="/projects" element={<ProjectsPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/gallery" element={<GalleryPage />} />
             </Routes>
           </section>
         </main>

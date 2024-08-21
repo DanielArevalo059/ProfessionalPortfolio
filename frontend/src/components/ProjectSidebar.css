@@ -1,35 +1,14 @@
-.project-sidebar {
-    position: absolute;
-    right:-250px;
-    top:0;
-    width:250px;
-    height:100%;
-    background-color: #BF9E75;
-    color: #fff;
-    transition: right 0.3 ease;
-    box-shadow: -2px 0 5px black;
-}
-
-.sidebar.open {
+aside {
+    position: fixed;
     right:0;
+    top: 0;
+    bottom: 0;
+    padding: 10%;
+    background-color: white;
+    transform: translateX(100%);
+    transition: 0.15s ease transform;
 }
 
-sidebar-contect {
-    padding: 20px;
-}
-
-.toggle-button{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color:#fff;
-    border:none;
-    border-radius: 5px;
-    cursor:pointer;
-}
-
-toggle-button:hover {
-    background-color: #0056b3;
+aside.visible {
+    transform: translateX(0);
 }
