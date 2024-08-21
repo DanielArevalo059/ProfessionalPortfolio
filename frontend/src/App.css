@@ -163,9 +163,6 @@
       input:enabled {
         background: var(--LightGray);
       }
-        :focus{
-          /* background-color: var(--MediumBlue); */
-        }
         *:required {
           border: 1px solid red;
         }

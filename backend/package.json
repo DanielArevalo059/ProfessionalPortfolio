@@ -1,8 +1,8 @@
 {
-  "name": "discgolfscores",
+  "name": "projects",
   "version": "1.0.0",
-  "description": "Accesses database for disc golf scores",
-  "main": "controller.js",
+  "description": "Accesses projects file",
+  "main": "dataController.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon controller.mjs"
@@ -16,5 +16,6 @@
     "mongoose": "^7.2.3",
     "nodemon": "^2.0.22",
     "rest": "^2.0.0"
-  }
+  },
+  "keywords": []
 }

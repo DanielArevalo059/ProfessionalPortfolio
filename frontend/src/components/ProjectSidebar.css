@@ -3,12 +3,14 @@ aside {
     right:0;
     top: 0;
     bottom: 0;
-    padding: 10%;
+    padding: 5%;
     background-color: white;
     transform: translateX(100%);
     transition: 1s ease transform;
+    text-align: center;
 }
 
 aside.visible {
     transform: translateX(0);
+    width: 50%;
 }
