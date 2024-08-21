@@ -82,6 +82,11 @@
           color: var(--TanBeige);
         }
         
+        .sidebar-toggle:hover{
+          color: var(--TanBeige); 
+          cursor: pointer;  
+                
+        }
         /*  -----  Typography  ----- */
         p {}
         br {}
