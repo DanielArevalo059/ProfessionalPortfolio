@@ -1,8 +1,8 @@
 const projects = [
   {
     projectId: 0,
-    title: "GalagaAR",
-    body: "This was a game where I created an AR version of Galaga `<p>This should be a new line. </p>'",
+    title: "<h1>GalagaAR</h1>",
+    body: "This was a game where I created an AR version of Galaga <p>This should be a new line. </p>'",
     whatNext: "I would like to...",
     other: "Youtube URL",
   },
