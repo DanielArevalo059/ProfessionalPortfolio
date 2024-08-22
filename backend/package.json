@@ -5,7 +5,7 @@
   "main": "dataController.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon controller.mjs"
+    "start": "nodemon dataController.js"
   },
   "author": "Daniel Arevalo",
   "license": "ISC",

@@ -4,7 +4,7 @@
         {
             "projectId": 0,
             "title": "GalagaAR",
-            "body": "This was a game where I created an AR version of Galaga",
+            "body": "This was a game where I created an AR version of Galaga <p>This should be a newline</p>",
             "whatNext": "I would like to...",
             "other": "Youtube URL"
         },

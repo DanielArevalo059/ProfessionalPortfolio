@@ -4,7 +4,7 @@ const path = require("path");
 const dataFilePath = path.join(__dirname, "..projects.json");
 
 const readData = () => {
-  const projects = fs.readFileSync(datFilePath, "utf8");
+  const projects = fs.readFileSync(dataFilePath, "utf8");
   return JSON.parse(projects);
 };
 

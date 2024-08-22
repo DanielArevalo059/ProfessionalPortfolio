@@ -3,9 +3,24 @@
 
 
 /*   ----- Imports  -----  */
-
+  /* Add fonts from the app's server 
+    @font-face {                
+      font-family: 'FontName';
+      src: url('FontName.woff2') format('woff2');
+    } 
+    ...or hosted services like Google Fonts 
+    @import url(//fonts.googleapis.com/css?family=Font+Name);
+  */
+  
+  /* @import 'node_modules/modern-normalize/modern-normalize.css'; */
+        /* npm install modern-normalize
+          Resets elements for browser consistency.  
+          https://www.npmjs.com/package/modern-normalize
+        */    
         @import url('https://fonts.googleapis.com/css2?family=Anton&family=Ysabeau:wght@300;700&display=swap'); 
-
+        /* Component-specific stylesheets, if any. 
+          @import "component1.css";   
+        */
         @import "~react-image-gallery/styles/css/image-gallery.css";
         
       /*   ----- Variables  -----  */
@@ -22,6 +37,7 @@
         /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
         body {       /* Can alternatively define in html {} or :root {} */
           background-color: lightgray;
+          /* background-image:url("images/utah-canyon-landscape.jpg"); */
           background-size: cover;
           color:var(--DarkGrayBlue);
           font-family:ysabeau, sans-serif; /* Define with at least one font name and its related generic family name.*/
@@ -53,20 +69,24 @@
           margin:2% 0%;
           padding:4%;
         }
-        
-
-        .LogoTable{
-
-          padding: 0% 5% 0% 0%;
-        }
-
+        section {}
+          article {}
+            #topic1 {}
+            #topic2 {}
+        div {}
+        aside {}
         footer {
           text-align: left;
           color: var(--DarkGrayBlue);
         }
         
         /* ----- Anchors ----- Text links */
-
+        /* a {}
+        a:link {}
+        a:hover {}
+        a:active {}
+        a:visited {} */
+        
         /*  ----- Navigation ----- Override text links for navigation only.  */
         nav {
           text-align: center;
@@ -82,11 +102,57 @@
           color: var(--TanBeige);
         }
         
-        .sidebar-toggle:hover{
-          color: var(--TanBeige); 
-          cursor: pointer;  
-                
-        }caption {
+        /*  -----  Typography  ----- */
+        p {}
+        br {}
+        ol, ul, dl {}
+        li {}
+        dt {}
+        dd {}
+        
+        h1, h2, h3, h4, h5, h6 {
+          font-family:anton;
+        } 
+        h1 {}
+        h2 {}
+        h3 {}
+        h4 {}
+        h5 {}
+        h6 {}
+        
+        abbr {}
+        acronym {}
+        address {}
+        blockquote {}
+          q {}
+          cite {}
+        em {}
+        hr {}
+        mark {}
+        s {}
+        span {}
+        strong {}
+        sub {}
+        sup {}
+        time {}
+        
+        /*  ----- Coding or instructional typography ----- */
+        pre {}
+        code {}
+        kbd {}
+        samp {}
+        var {}
+        del {} 
+        ins {}
+        
+        /*  ----- Table ----- */
+        table {
+          align-items: center;
+          font-size: .85em;
+          color:var(--DarkGrayBlue);
+          width: 100%
+        }
+        caption {
           text-align: left;
           color:var(--DarkGrayBlue);
           /* background-color:var(--LightGray); */
@@ -95,15 +161,29 @@
           /* border-bottom: 1px solid var(--DarkGrayBlue); */
           /* border-radius:8px; */
         }
-    
+        thead {}
+        tbody {}
+        tfoot {}
+        tr {}
         
-       .TechnicalProficienciesTable{
+          /* tr:nth-child(even) td {background-color: var(--SkyBlueOpacity);} */
+        /* tr th { 
+          align-items: left;
+          color:var(--DarkGrayBlue);
+          background-color:var(--MediumBlue);
+          margin: 3px;
+          padding:1%;
+          border-bottom: 1px solid var(--LightGray);
+       
+        } */
+        td {
+          padding:1% 1%;
+        }
+       table{
         border-top: 1px solid var(--DarkGrayBlue);
         border-bottom: 1px solid var(--DarkGrayBlue);
        }
-       .TechnicalProficienciesTable td {
-        padding:1% 1%;
-      }
+        
         /*  ----- Form ----- */
         form, input, button, textarea, select {
           font-family: ysabeau, sans-serif;
@@ -163,10 +243,18 @@
       input:enabled {
         background: var(--LightGray);
       }
+        :focus{
+          /* background-color: var(--MediumBlue); */
+        }
         *:required {
           border: 1px solid red;
         }
-    
+          output {}
+          meter {}
+          progress {}
+            optgroup {}
+            option {}
+       
         
         /* ----- Media ----- */
         .gallery figure {
@@ -181,14 +269,42 @@
           display:block; 
           padding: 1% 1% 2% 1%;
         }
-     
+          figure img {}
+        svg {}
+        picture {}
+          source {}
+        iframe {}
+        video {}
+        audio {}
+        embed {}
+        object {}
+        
         /*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
         .gallery { 
           display: flex;
           flex-flow: row wrap;
         }
         
-
+        .floatright {}
+        .floatleft {}
+        .center-middle {}
+        
+        .ten {}
+        .twenty {}
+        .thirty {}
+        .forty {}
+        .fifty {}
+        .sixty {}
+        .seventy {}
+        .eighty {}
+        
+        .radius {}
+        .circle {}
+        .boxshadow {}
+        .tshadow {} 
+        .gradient {}
+        .shape {}
+        
         @keyframes App-logo {}
         
         /*   ===== TABLET  media query overrides mobile styles ===== */
@@ -199,3 +315,52 @@
         
         /*   ===== PRINT  media query overrides previous styles =====  */
         @media print {}
+
+
+
+
+
+
+
+
+
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/

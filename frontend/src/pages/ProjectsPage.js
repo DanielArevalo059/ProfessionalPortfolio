@@ -4,6 +4,7 @@ import ProjectSidebar from "../components/ProjectSidebar";
 
 function ProjectsPage() {
   const [sidebarToggled, setSidebarToggled] = useState(false);
+  const [projectID, setProjectID] = useState(0);
   const sidebarRef = useRef(null);
 
   useEffect(() => {
@@ -27,14 +28,35 @@ function ProjectsPage() {
     <>
       <h2>Projects</h2>
       <aside ref={sidebarRef} className={`${sidebarToggled ? "visible" : ""}`}>
-        <ProjectSidebar />
+        <ProjectSidebar projectID={projectID} />
       </aside>
       <article>
         <button
           className="sidebar-toggle"
-          onClick={() => setSidebarToggled(true)}
+          onClick={() => {
+            setProjectID(0);
+            setSidebarToggled(true);
+          }}
         >
-          Project Description
+          Show More
+        </button>
+        <button
+          className="sidebar-toggle"
+          onClick={() => {
+            setProjectID(1);
+            setSidebarToggled(true);
+          }}
+        >
+          Show More
+        </button>
+        <button
+          className="sidebar-toggle"
+          onClick={() => {
+            setProjectID(2);
+            setSidebarToggled(true);
+          }}
+        >
+          Show More
         </button>
       </article>
     </>

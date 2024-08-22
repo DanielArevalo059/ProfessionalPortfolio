@@ -1,25 +1,17 @@
 import React, { useState, useEffect } from "react";
 import "./ProjectSidebar.css";
+import projects from "../data/projects.js";
 
-function ProjectSidebar() {
-  const [projects, setProjects] = useState([]);
-  //Retrieve project json from backend
-  const loadProjects = async () => {
-    const response = await fetch('/projects');
-    const data = await response.json();
-    console.log(data);
-    setProjects(data);
-  };
-
-  useEffect(() => {
-    loadProjects();
-  }, []);
+function ProjectSidebar({ projectID }) {
+  // console.log(projects);
+  // console.log(projects[projectID]);
+  const project = projects[projectID];
+  const [newProjectID, setNewProjectID] = useState(projectID);
   return (
     <>
-      <div classname="sidebar-content">
-        <h2>Sidebar</h2>
-        <p>Sidebar Content</p>
-        <p>{projects}</p>
+      <div className="sidebar-content">
+        <h2>{project.title}</h2>
+        <p>{project.body}</p>
       </div>
     </>
   );
