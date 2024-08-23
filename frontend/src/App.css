@@ -69,6 +69,10 @@
           margin:2% 0%;
           padding:4%;
         }
+        .project-description{
+          border-top: 1px dashed black;
+          border-bottom: 1px dashed black;
+        }
         section {}
           article {}
             #topic1 {}
@@ -102,10 +106,7 @@
           color: var(--TanBeige);
         }
 
-        .sidebar-toggle:hover {
-color: var(--TanBeige);
-cursor: pointer;
-        }
+
         
         /*  -----  Typography  ----- */
         p {}
