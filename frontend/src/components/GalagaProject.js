@@ -53,37 +53,41 @@ function GalagaProject() {
           width="420"
           height="315"
           src="https://www.youtube.com/embed/bJO1pWf96ew?start=630"
-        ></iframe>
+          title="My contribution to GalagaAR."
+        ></iframe>{" "}
+        <p style={{ fontSize: ".75em" }}>
+          My contribution to GalagaAR. If you would like to view the video in
+          its entirety, you may scroll to the beginning.
+        </p>
       </div>
       <dt>
         <h4>What's next?</h4>
       </dt>
-      <p>
-        For this project, I was able to utilize Unreal Engine's robust
-        technology to personally create many elements of gameplay, including:
-      </p>
+      <p>Some things I would modify and add to this project would be to:</p>
       <dd>
         <li>
-          The main player pawn actor including the spaceship mesh, firing button
-          functionality, and projectile spawning with appropriate sound.
+          Optimize functionality such as less casting by creating reference
+          variables, reconfigure the aiming mechanism to avoid using the event
+          tick, and reorganize the UserShip Pawn class.
         </li>
       </dd>
       <dd>
         <li>
-          The main player pawn actor including the spaceship mesh, firing button
-          functionality, and projectile spawning with appropriate sound.
+          Further align gameplay with Galaga, such as lining up opponents,
+          adding multiple levels with increasing difficulty, and ability to add
+          another user ship after capture.
         </li>
       </dd>
       <dd>
         <li>
-          The main player pawn actor including the spaceship mesh, firing button
-          functionality, and projectile spawning with appropriate sound.
+          Implement Game Over functionality with leaderboard and high score
+          data, adding powerups, and swapping ship meshes.
         </li>
       </dd>
       <dd>
         <li>
-          The main player pawn actor including the spaceship mesh, firing button
-          functionality, and projectile spawning with appropriate sound.
+          Utilize AR capabilities by integrating gameplay with environmental
+          obstacles.
         </li>
       </dd>
     </div>

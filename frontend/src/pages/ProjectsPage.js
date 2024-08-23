@@ -90,6 +90,9 @@ function ProjectsPage() {
           >
             Available Here
           </a>
+          <p></p>
+        </dl>
+        <dl className="project-description">
           <p>
             <button
               className="sidebar-toggle"

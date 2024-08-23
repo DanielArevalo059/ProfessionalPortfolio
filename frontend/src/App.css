@@ -70,8 +70,8 @@
           padding:4%;
         }
         .project-description{
-          border-top: 1px dashed black;
-          border-bottom: 1px dashed black;
+          border-top: 1px solid black;
+          /* border-bottom: 1px solid black; */
         }
         section {}
           article {}
