@@ -189,6 +189,13 @@
         border-top: 1px solid var(--DarkGrayBlue);
         border-bottom: 1px solid var(--DarkGrayBlue);
        }
+       .project-table{
+        border:none;
+        td{
+          /* border:1px solid black; */
+        padding:0%;
+      width:25%}
+       }
         
         /*  ----- Form ----- */
         form, input, button, textarea, select {
