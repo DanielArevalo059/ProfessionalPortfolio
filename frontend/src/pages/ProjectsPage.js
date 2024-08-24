@@ -16,7 +16,7 @@ function ProjectsPage() {
           !e.target.classList.contains("sidebar-toggle")
         ) {
           setSidebarToggled(false);
-          setProjectID(2);
+          setProjectID(0);
         }
       }
     }
@@ -70,6 +70,15 @@ function ProjectsPage() {
                 skills.
               </dd>
             </p>
+            <button
+              className="sidebar-toggle"
+              onClick={() => {
+                setProjectID(1);
+                setSidebarToggled(true);
+              }}
+            >
+              View Full Desription
+            </button>
           </div>
           <table className="project-table">
             <thead>
@@ -82,17 +91,7 @@ function ProjectsPage() {
             </thead>
             <tbody>
               <tr>
-                <td>
-                  <button
-                    className="sidebar-toggle"
-                    onClick={() => {
-                      setProjectID(0);
-                      setSidebarToggled(true);
-                    }}
-                  >
-                    View Full Desription
-                  </button>
-                </td>
+                <td></td>
                 <td
                   rowSpan={"3"}
                   style={{ textAlign: "center", verticalAlign: "middle" }}
@@ -137,10 +136,11 @@ function ProjectsPage() {
               </tr>
               <tr>
                 <td>
-                  GitHub Repository:{" "}
+                  GitHub Repo:{" "}
                   <a
                     href="https://github.com/psargeant/CS467_Capstone_Project"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Available Here
                   </a>
@@ -151,21 +151,55 @@ function ProjectsPage() {
           <p></p>
         </dl>
         <dl className="project-description">
-          <p>
+          <dt>
+            <h3>Professional Portfolio Website</h3>
+          </dt>
+          <em>HTML | CSS | JavaScript | React</em>
+          <div className="experience">
+            <p>
+              <dd>
+                <strong>Developed</strong> a responsive and interactive
+                professional portfolio website using HTML, CSS, JavaScript, and
+                React, showcasing projects, skills, and work experience.
+              </dd>
+            </p>
+            <p>
+              <dd>
+                <strong>Designed</strong> and implemented a clean, user-friendly
+                interface with custom styling using CSS, ensuring a cohesive
+                visual identity across all pages.
+              </dd>
+            </p>
+            <p>
+              <dd>
+                <strong>Integrated</strong> React for dynamic content rendering
+                and improved user experience, enabling seamless navigation
+                between different sections of the portfolio.
+              </dd>
+            </p>
+            <p>
+              <dd>
+                <strong>Implemented</strong> reusable components in React to
+                streamline the development process and maintain consistency
+                throughout the site.
+              </dd>
+            </p>
             <button
               className="sidebar-toggle"
               onClick={() => {
-                setProjectID(1);
+                setProjectID(2);
                 setSidebarToggled(true);
               }}
             >
-              Show More
+              View Full Description
             </button>
-          </p>
+          </div>
+
+          <p></p>
           <button
             className="sidebar-toggle"
             onClick={() => {
-              setProjectID(2);
+              setProjectID(3);
               setSidebarToggled(true);
             }}
           >

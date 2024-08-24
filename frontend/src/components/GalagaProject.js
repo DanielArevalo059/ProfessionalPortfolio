@@ -48,6 +48,7 @@ function GalagaProject() {
           upon receiving its last hit point, and restarting the game.
         </li>
       </dd>
+      <p></p>
       <div align="center">
         <iframe
           width="420"
