@@ -196,7 +196,7 @@ function ProjectsPage() {
           </div>
 
           <p></p>
-          <button
+          {/* <button
             className="sidebar-toggle"
             onClick={() => {
               setProjectID(3);
@@ -204,7 +204,7 @@ function ProjectsPage() {
             }}
           >
             Show More
-          </button>
+          </button> */}
         </dl>
       </article>
     </>
