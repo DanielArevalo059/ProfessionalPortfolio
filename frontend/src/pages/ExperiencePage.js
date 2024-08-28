@@ -146,32 +146,34 @@ function ExperiencePage() {
           <dd>
             <ul className="experience">
               <li>
-                Integrated comprehensive lesson plans and a challenging
-                curriculum on a range of subjects taught by class instructors.
+                Integrate comprehensive lesson plans and a challenging
+                curriculum across a range of subjects taught by class
+                instructors.
               </li>
               <li>
-                Garnered a safe and inclusive learning environment, conducive to
+                Foster a safe and inclusive learning environment, conducive to
                 diverse learning styles and open class discussions.
               </li>
               <li>
-                Practiced time management with lessons, gained leadership as a
-                classroom leader, and cultivated patience; adapted to shifting
-                assignments and accommodated diverse personalities with students
+                Manage time effectively in lessons, demonstrate leadership as a
+                classroom leader, and cultivate patience; adapt to shifting
+                assignments and accommodate diverse personalities among students
                 and school staff.
               </li>
               <li>
-                Fulfilled short-term and long-term substitute teaching
-                requirements for all subjects; received high positive feedback
-                from teachers; adopted yard duty role during recess; excelled at
-                engaging student attention in difficult concepts.
+                Fulfill short-term and long-term substitute teaching
+                requirements for all subjects; consistently receive positive
+                feedback from teachers; take on yard duty during recess; excel
+                at engaging student attention in difficult concepts.
               </li>
               <li>
-                Interacted with students, developed team-building activities
-                that enhanced student motivation; incorporated digital
-                technology into learning instruction.
+                Interact with students, develop team-building activities to
+                enhance student motivation, and incorporate digital technology
+                into learning instruction.
               </li>
             </ul>
           </dd>
+
           <p></p>
           <dt>
             <strong>
@@ -182,42 +184,44 @@ function ExperiencePage() {
           <dd>
             <ul className="experience">
               <li>
-                Orchestrate the daily HR processes, involving benefits
-                management, PTO, and the employee life cycle; compose offer
-                letters and arrange contracts for all staff.
+                Orchestrated daily HR processes, including benefits management,
+                PTO, and the employee life cycle; composed offer letters and
+                arranged contracts for all staff.
               </li>
               <li>
-                Monitor key employee documents leveraging HRIS reporting;
-                collaborate with payroll department to guarantee timely and
+                Monitored key employee documents using HRIS reporting;
+                collaborated with the payroll department to ensure timely and
                 accurate staff payments.
               </li>
               <li>
-                Maintain confidentiality protocol and integrity with private
-                documents and sensitive employee information.
+                Maintained confidentiality protocols and upheld integrity with
+                private documents and sensitive employee information.
               </li>
               <li>
-                Head the team through two open enrollments, expanding company
-                staff from ~150 to 200 employees; vetted and implemented new
-                vendors for an all-inclusive training platform, benefits broker,
-                and an employee assistance program.
+                Led the team through two open enrollment periods, expanding
+                company staff from approximately 150 to 200 employees; vetted
+                and implemented new vendors for a comprehensive training
+                platform, benefits broker, and employee assistance program.
               </li>
               <li>
-                Assisted in opening and staffing new clinical locations;
-                streamlining onboarding processes; aid with coordinating and
-                executing associate relations activities; aid in organizing
-                events such as company-wide training events.
+                Assisted in opening and staffing new clinical locations,
+                streamlined onboarding processes, and supported the coordination
+                and execution of associate relations activities, including
+                organizing company-wide training events.
               </li>
               <li>
-                Coach to Managers to improve leadership capabilities in the
-                organization and promote a high performing work culture; consult
-                management on optimal methods to coach team members.
+                Coached managers to enhance leadership capabilities within the
+                organization and promoted a high-performing work culture;
+                consulted with management on effective methods to coach team
+                members.
               </li>
               <li>
-                Lead functional and business initiatives around engagement,
+                Led functional and business initiatives focused on engagement,
                 diversity, talent management, training, and change management.
               </li>
             </ul>
           </dd>
+
           <p></p>
           <dt>
             <strong>

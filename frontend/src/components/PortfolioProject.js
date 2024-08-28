@@ -41,7 +41,7 @@ function PortfolioProject() {
           application state.
         </li>
       </dd>
-      <dd>
+      {/* <dd>
         <li>
           Created a Contact Me page through{" "}
           <a href="https://www.emailjs.com/" target="_blank" rel="noreferrer">
@@ -49,16 +49,31 @@ function PortfolioProject() {
           </a>{" "}
           which allows email submission directly from the client's side.
         </li>
-      </dd>
+      </dd> */}
 
       <p></p>
 
       <dt>
         <h4>What's next?</h4>
       </dt>
-      <p>Some things I would modify and add to this project would be to:</p>
+      <p>To enhance this project, I would like to:</p>
       <dd>
-        <li></li>
+        <li>
+          Expand the functionality and user experience, making it more
+          interactive and user-friendly.
+        </li>
+      </dd>
+      <dd>
+        <li>
+          Further break down the pages and their components to create a more
+          scalable product.
+        </li>
+      </dd>
+      <dd>
+        <li>
+          Host my database projects through this site by developing a backend
+          with endpoints that interact with a SQL and noSQL database.
+        </li>
       </dd>
     </div>
   );
