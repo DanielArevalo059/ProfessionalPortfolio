@@ -15,7 +15,7 @@ function AboutMePage() {
               <p>
                 Dynamic and results-driven professional with a solid background
                 in Human Resources Management, successfully pivoting to a career
-                in Software Engineering. Leveraging over five years of
+                in Software Engineering. Leveraging over four years of
                 experience in HR, I bring a unique blend of people-focused
                 skills, strategic thinking, and technical expertise to the tech
                 industry.
