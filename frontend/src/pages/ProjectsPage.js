@@ -109,7 +109,7 @@ function ProjectsPage() {
                 >
                   <img
                     id="GalagaAR-Gameplay-2"
-                    src="../images/GalagaAR-Gameplay-2.png"
+                    src="../images/GalagaAR-Gameplay-2.jpg"
                     alt="GalagaAR gameplay example"
                     style={{ width: "60%", height: "auto" }}
                   />
@@ -120,7 +120,7 @@ function ProjectsPage() {
                 >
                   <img
                     id="GalagaAR-Gameplay-3"
-                    src="../images/GalagaAR-Gameplay-3.png"
+                    src="../images/GalagaAR-Gameplay-3.jpg"
                     alt="GalagaAR gameplay example"
                     style={{ width: "60%", height: "auto" }}
                   />
