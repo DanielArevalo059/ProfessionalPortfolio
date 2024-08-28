@@ -98,7 +98,7 @@ function ProjectsPage() {
                 >
                   <img
                     id="GalagaAR-Gameplay-1"
-                    src="../images/GalagaAR-Gameplay-1.png"
+                    src="../images/sort-timer.png"
                     alt="GalagaAR gameplay example"
                     style={{ width: "60%", height: "auto" }}
                   />
