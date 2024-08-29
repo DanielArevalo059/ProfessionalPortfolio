@@ -19,12 +19,16 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/DanielArevalo059/ProfessionalPortfolio.git
 2. **Navigate to frontend:**
+   
    cd frontend/
-3. **Install Dependencies**
+4. **Install Dependencies**
+   
    npm i
-4. **Start frontend**
+
+6. **Start frontend**
    npm start
-5. This will automatically start the fronted on http://localhost:3000
+
+7. This will automatically start the fronted on http://localhost:3000
 
 ## What's Next?
 In the short-term, I would like to implement a backend so that I can display a full-stack project as well as add some smaller projects that I have worked on throughout my time at Oregon State University. I am working on a contact page, so that users can send me an email form the frontend through a service like EmailJS, and I would also like to add more dynamic components to make the site more optimal, user-friendly and interactive. 
